@@ -775,3 +775,18 @@ void() SUB_UsePain; //dumptruck_ds
 .float 		pain_threshold; //dumptruck_ds
 .string 	pain_target; //dumptruck_ds
 .float color; //Hipnotic
+
+
+/*============================================================================
+begin empros defs
+============================================================================*/
+
+// rotating door states
+float STATE_CLOSED   = 4;
+float STATE_OPEN     = 5;
+float STATE_OPENING  = 6;
+float STATE_CLOSING  = 7;
+
+/*============================================================================
+end empros defs
+============================================================================*/
